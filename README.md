@@ -50,7 +50,7 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Git Repository
-Find the Git repository here.
+[Find the Git repository here.](https://github.com/sivadinesh12/School-Searcher.git)
 
 ## Live Website
 View the live website here.
