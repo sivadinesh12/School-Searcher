@@ -53,4 +53,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 [Find the Git repository here.](https://github.com/sivadinesh12/School-Searcher.git)
 
 ## Live Website
-View the live website here.
+[View the live website here.](https://school-searcher.vercel.app/)
