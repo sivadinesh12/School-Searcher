@@ -11,21 +11,22 @@ const LandingPage = () => {
   console.log(schools)
 
   useEffect(() => {
-    const fetchSchools = async () => {
-      try {
-        const response = await fetch("http://localhost:5000/getSchools");
-        if (!response.ok) {
-          throw new Error(`HTTP error! Status: ${response.status}`);
-        }
-        const data = await response.json();
-        setSchools(data);
-      } catch (error) {
-        console.error("Error fetching schools:", error);
+  const fetchSchools = async () => {
+    try {
+      const response = await fetch("http://localhost:5000/getSchools");
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
       }
-    };
+      const data = await response.json();
+      setSchools(data);
+    } catch (error) {
+      console.error("Error fetching schools:", error);
+    }
+  };
 
-    fetchSchools();
-  }, []);
+  fetchSchools();
+}, []);
+
 
   useEffect(() => {
     setFilteredSchools(
